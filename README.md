@@ -13,7 +13,7 @@ Steps to do in the projects
   3. Write a function that separates the data into k folds and performs cross validation. The
   name of the function should be “k_fold_cv”. This function is expected to work with k=5
   and k=10. When calculating the performance of a model, you need to use classification
-  accuracy. Since k-fold cross validation should be repeated for every possible pair of 􁈺􀜥,􀟛􁈻, these values should be introduced to the function as well.
+  accuracy. Since k-fold cross validation should be repeated for every possible pair of C,Y, these values should be introduced to the function as well.
     i. Input of the function: k (integer), training set, possible values for C, possible
     values for Y
     ii. Output of the function: best C,Y pair giving the highest CV accuracy
