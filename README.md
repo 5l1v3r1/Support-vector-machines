@@ -25,10 +25,10 @@ Steps to do in the projects
     
     
 The overall structure of the program should be something like this:
-    i. Specify an integer value for k (either 5 or 10 is ok)
-    ii. Separate the training data into k-folds
-    iii. Calculate k-fold cross validation accuracy on SVM models for all possible C,Y
-    pairs
-    iv. Store the C,Y pair that gives the highest cross validation accuracy as Cbest,Ybest
-    v. Train an SVM model using Cbest,Ybest on the entire training set
-    vi. Test your model in the previous step on the test set
+  1. Specify an integer value for k (either 5 or 10 is ok)
+  2. Separate the training data into k-folds
+  3. Calculate k-fold cross validation accuracy on SVM models for all possible C,Y
+  pairs
+  4. Store the C,Y pair that gives the highest cross validation accuracy as Cbest,Ybest
+  5. Train an SVM model using Cbest,Ybest on the entire training set
+  6. Test your model in the previous step on the test set
